@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+
+/*CSS do conteúdo de <nav>*/
+
+nav{
+    background-color: rgb(172, 70, 44);
+    padding-bottom: 20px;
+}
+
+button > img{
+    width: 100%;
+    margin: 0;
+}
+
+.button-pesquisa-produto{
+    padding: 0px;
+    width: 5%;
+    background-color: rgb(213, 136, 27);
+}
+
+form{
+    display: flex;
+    border: 3px solid black;
+    margin: auto;
+    width: 70%;
+}
+
+select, input, .button-pesquisa-produto{
+    border: none;
+    font-family: "Roboto Mono", system-ui;
+
+}
+
+select{
+    text-align: center;
+    font-size: 1rem;
+    width: 10%;
+    background-color: rgb(213, 136, 27);
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    font-size: 1.5rem;
+    background-color: rgb(219, 219, 219);
+}
+
+input::placeholder{
+    font-family: "Roboto Mono", system-ui;
+}
+
+/*CSS do conteúdo da <main>*/
+
+h1{
+    text-align: center;
+    font-family: "Roboto Mono", system-ui;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+body{
+    background-color: rgba(222, 189, 90, 0.54);
+}
+
+.container-produtos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os produtos fiquem em várias linhas */
+    justify-content: center; /* Centraliza os produtos */
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 1.1rem;
+    width: 20%; /* Pode ser ajustado conforme necessário */
+    height: 400px; /* Define uma altura fixa */
+    text-align: center;
+    margin: 2%; /* Use margem para espaçamento */
+    background-color: rgb(172, 70, 44);
+}
+
+.produto > h2{
+    color: white;
+    font-weight: bold;
+}
+
+.produto > p{
+    color: white;
+    font-weight: bold;
+}
+
+.button-comprar{
+    font-family: "Roboto Mono", system-ui;
+    background-color: rgb(224, 112, 112);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.produto > img{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+/*CSS do conteúdo <footer>*/
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+
